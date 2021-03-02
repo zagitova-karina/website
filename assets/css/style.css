@@ -1766,7 +1766,7 @@ p.form-message.success, p.form-message.error {
 
 /*# sourceMappingURL=style.css.map */
 .collapsible {
-  background-color: #d5cdf3;
+  background-color: #8d6fff;
   color: white;
   cursor: pointer;
   padding: 18px;
@@ -1778,7 +1778,7 @@ p.form-message.success, p.form-message.error {
   border-radius: 20px;
 }
 
-.active1, .collapsible:hover {
+.collapsible:hover {
   background-color: #744df9;
   border-radius: 10px;
 }
@@ -1791,7 +1791,7 @@ p.form-message.success, p.form-message.error {
   margin-left: 5px;
 }
 
-.active1:after {
+.active:after {
   content: "\2212";
 }
 

@@ -12,19 +12,19 @@
     //===== Mobile Menu
 
     $(".navbar-toggler").on('click', function() {
-        $(this).toggleClass('active');
-    });
+          (document.querySelector(".show")) ? $(this).removeClass('active') : $(this).addClass('active')
 
-    $(".navbar-nav a").on('click', function() {
-        $(".navbar-toggler").removeClass('active');
-    });
+        });
+
+        $(".navbar-nav a").on('click', function() {
+            $(".navbar-collapse").toggleClass('in show')
+            $(".navbar-toggler").removeClass('active');
+        });
 
 
     //===== close navbar-collapse when a  clicked
 
-    $(".navbar-nav a").on('click', function () {
-        $(".navbar-collapse").removeClass("active");
-    });
+
 
 
     //===== Sticky
