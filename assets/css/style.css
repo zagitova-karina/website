@@ -514,7 +514,7 @@ p {
     @media (max-width: 767px) {
       .navigation .navbar .navbar-collapse {
         position: absolute;
-        top: 158%;
+        top: 183%;
         left: 0;
         width: 100%;
         background-color: #fff;
