@@ -536,8 +536,8 @@ p {
       .navigation .navbar .navbar-nav .nav-item a {
         text-transform: uppercase;
         font-size: 16px;
-        color: #fff;
         font-weight: 500;
+        color: #000000;
         position: relative;
         -webkit-transition: all 0.3s ease-out 0s;
         -moz-transition: all 0.3s ease-out 0s;
@@ -569,7 +569,7 @@ p {
             .navigation .navbar .navbar-nav .nav-item a::before {
               display: none; } }
       .navigation .navbar .navbar-nav .nav-item.active a, .navigation .navbar .navbar-nav .nav-item:hover a {
-        color: #754ef9; }
+         }
         .navigation .navbar .navbar-nav .nav-item.active a::before, .navigation .navbar .navbar-nav .nav-item:hover a::before {
           height: 45px; }
 
