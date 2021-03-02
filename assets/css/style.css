@@ -1786,7 +1786,7 @@ p.form-message.success, p.form-message.error {
 .collapsible:after {
   content: '\002B';
   color: white;
-  font-weight: bold;
+  font-weight: 900;
   font-size: 30px;
   float: right;
   margin-left: 5px;
