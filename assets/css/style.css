@@ -1005,6 +1005,7 @@ p {
     width: 100%;
     height: 100%;
     background-color: rgba(117, 78, 249, 0.8);
+    border-radius: 25px;
     opacity: 0;
     visibility: hidden;
     -webkit-transition: all 0.3s ease-out 0s;
@@ -1777,7 +1778,7 @@ p.form-message.success, p.form-message.error {
   border-radius: 20px;
 }
 
-.active, .collapsible:hover {
+.active1, .collapsible:hover {
   background-color: #744df9;
   border-radius: 10px;
 }
@@ -1790,7 +1791,7 @@ p.form-message.success, p.form-message.error {
   margin-left: 5px;
 }
 
-.active:after {
+.active1:after {
   content: "\2212";
 }
 
