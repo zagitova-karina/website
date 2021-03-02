@@ -1167,6 +1167,7 @@ p {
     .single-pricing.active .pricing-body .pricing-btn .main-btn:hover {
       background-color: #fff;
       color: #754ef9; }
+  .pricing-btn{ text-align: center; }
 
 /*===========================
        7.BLOG css
