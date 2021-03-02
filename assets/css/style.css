@@ -1393,6 +1393,7 @@ p.form-message.success, p.form-message.error {
   color: #fff;
   position: fixed;
   bottom: 40px;
+  left: 10px;
   width: 50px;
   height: 50px;
   line-height: 46px;
