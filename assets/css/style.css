@@ -569,6 +569,10 @@ p {
             .navigation .navbar .navbar-nav .nav-item a::before {
               display: none; } }
       .navigation .navbar .navbar-nav .nav-item.active a, .navigation .navbar .navbar-nav .nav-item:hover a {
+        background-color: rgba(117, 78, 249, 0.8);
+        border-radius: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
          }
         .navigation .navbar .navbar-nav .nav-item.active a::before, .navigation .navbar .navbar-nav .nav-item:hover a::before {
           height: 45px; }
@@ -1765,6 +1769,8 @@ p.form-message.success, p.form-message.error {
       cursor: pointer; }
 
 /*# sourceMappingURL=style.css.map */
+
+/* collapsible menu*/
 .collapsible {
   background-color: #8d6fff;
   color: white;
@@ -1778,7 +1784,7 @@ p.form-message.success, p.form-message.error {
   border-radius: 20px;
 }
 
-.collapsible:hover {
+.active1, .collapsible:hover {
   background-color: #744df9;
   border-radius: 10px;
 }
@@ -1792,7 +1798,7 @@ p.form-message.success, p.form-message.error {
   margin-left: 5px;
 }
 
-.active:after {
+.active1:after {
   content: "\2212";
 }
 
