@@ -179,7 +179,7 @@
 $(document).ready(function() {
   //carousel options
   $('#quote-carousel').carousel({
-    pause: true, interval: 300000,
+    pause: true, interval: 15000,
   })
 });
 }(jQuery));
