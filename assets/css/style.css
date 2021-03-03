@@ -506,24 +506,26 @@ p {
         top: 183%;
         left: 0;
         width: 100%;
+        border-radius: 10px;
         background-color: #fff;
         z-index: 99;
         -webkit-box-shadow: 0px 10px 15px 0px rgba(134, 134, 134, 0.15);
         -moz-box-shadow: 0px 10px 15px 0px rgba(134, 134, 134, 0.15);
         box-shadow: 0px 10px 15px 0px rgba(134, 134, 134, 0.15);
-        padding: 3px 12px; } }
+         } }
     @media (max-width: 767px) {
       .navigation .navbar .navbar-collapse {
         position: absolute;
         top: 183%;
         left: 0;
         width: 100%;
+        border-radius: 10px;
         background-color: #fff;
         z-index: 99;
         -webkit-box-shadow: 0px 10px 15px 0px rgba(134, 134, 134, 0.15);
         -moz-box-shadow: 0px 10px 15px 0px rgba(134, 134, 134, 0.15);
         box-shadow: 0px 10px 15px 0px rgba(134, 134, 134, 0.15);
-        padding: 3px 12px; } }
+       } }
     .navigation .navbar .navbar-nav .nav-item {
       margin-left: 30px; }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
