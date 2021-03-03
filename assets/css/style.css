@@ -1852,14 +1852,7 @@ p.form-message.success, p.form-message.error {
   border-radius: 10px;
 }
 
-/* timeline */
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 
 }  /* INTRO SECTION
@@ -1888,7 +1881,8 @@ h1 {
 .timeline ul {
   background: #456990;
   padding: 50px 0;
-}
+  overflow-x: hidden; // hide horizontal
+  }
 
 .timeline ul li {
   list-style-type: none;
@@ -2007,7 +2001,7 @@ time {
     margin-left: 20px;
   }
   .timeline ul li div {
-    width: calc(100vw - 80px);
+    width: calc(100vw  80px);
   }
   .timeline ul li:nth-child(even) div {
     left: 45px;
