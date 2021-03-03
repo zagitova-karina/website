@@ -578,6 +578,7 @@ p {
         border-radius: 10px;
         padding-left: 10px;
         padding-right: 10px;
+        color:#fff;
         /* make it glow! */
         -webkit-box-shadow: 0px 0px 10px #754ef9;
            -moz-box-shadow: 0px 0px 10px #754ef9;
@@ -1938,7 +1939,7 @@ h1 {
 }
 
 .timeline ul li:nth-child(even) div::before {
-  right: -15px;
+  right: -16px;
   border-width: 8px 0 8px 16px;
   border-color: transparent transparent transparent #F45B69;
 }
@@ -2007,7 +2008,7 @@ time {
     left: 45px;
   }
   .timeline ul li:nth-child(even) div::before {
-    left: -15px;
+    left: -16px;
     border-width: 8px 16px 8px 0;
     border-color: transparent #F45B69 transparent transparent;
   }
