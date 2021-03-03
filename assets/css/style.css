@@ -574,6 +574,10 @@ p {
         border-radius: 10px;
         padding-left: 10px;
         padding-right: 10px;
+        /* make it glow! */
+        -webkit-box-shadow: 0px 0px 10px #754ef9;
+           -moz-box-shadow: 0px 0px 10px #754ef9;
+                box-shadow: 0px 0px 10px #754ef9; /
          }
         .navigation .navbar .navbar-nav .nav-item.active a::before, .navigation .navbar .navbar-nav .nav-item:hover a::before {
           height: 45px; }
