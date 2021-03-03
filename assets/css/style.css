@@ -697,6 +697,7 @@ p {
   .header-content-right .sub-title {
     font-size: 30px;
     color: #754ef9;
+    padding-top:20px;
     text-transform: uppercase;
     padding-bottom: 0px; }
     @media (max-width: 767px) {
