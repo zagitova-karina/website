@@ -12,6 +12,10 @@ border: 4px outset  #754ef9;
    -moz-box-shadow: 0px 0px 10px #754ef9;
         box-shadow: 0px 0px 10px #754ef9; //* some variation of violet for the shadow */
 }
+img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
 .main-btn {
     padding: 1em 2.1em 1.1em;
     border-radius: 3px;
