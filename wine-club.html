@@ -12,21 +12,122 @@
 
     <!--====== Title ======-->
     <title>Wine club</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 img.avatar
   {
-border-radius: 120px 20px 120px 20px;
-max-width: 50%;
+border-radius: 50%;
 height: auto;
 display: block;
 margin-left: auto;
 margin-right: auto;
 width: 150px;
+border: 4px outset  #754ef9;
+/* make it glow! */
+-webkit-box-shadow: 0px 0px 10px #754ef9;
+   -moz-box-shadow: 0px 0px 10px #754ef9;
+        box-shadow: 0px 0px 10px #754ef9; //* some variation of violet for the shadow */
 }
+.main-btn {
+    padding: 1em 2.1em 1.1em;
+    border-radius: 3px;
+    margin: 8px 8px 8px 8px;
+    color: #fff;
+    background-color: #754ef9;
+    display: inline-block;
+    background: #754ef9;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    font-family:"Poppins", sans-serif;
+    font-weight: 800;
+    font-size: .85em;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    position: relative;
+
+}
+.main-btn:hover, .main-btn:focus {
+    opacity: 0.9;
+    color: #fff;
+}
+.main-btn:active {
+    -webkit-transform: scale(0.80);
+    -moz-transform: scale(0.80);
+    -ms-transform: scale(0.80);
+    -o-transform: scale(0.80);
+    transform: scale(0.80);
+}
+.main-btn.block {
+    display: block !important;
+}
+.main-btn.circular {
+  border-radius: 50em !important;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+  @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800&display=swap");
+  body {
+    font-family: "Poppins", sans-serif;
+    font-weight: strong;
+    font-style: normal;
+    color: #8a8fa3;
+  overflow-x: hidden; // hide horizontal
+  font-display: swap; }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #32333c;
+    margin: 0px; }
+
+    hr.fancy-line {
+        border: 0;
+        height: 1px;
+
+        background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(215,215,215,0.75), rgba(0,0,0,0));
+        background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(215,215,215,0.75), rgba(0,0,0,0));
+        background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(215,215,215,0.75), rgba(0,0,0,0));
+        background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(215,215,215,0.75), rgba(0,0,0,0));
+        box-shadow: 0px -2px 4px rgba(136,136,136,0.75);
+
+    }
  </style>
 
 </head>
 
 <body>
 <img src="assets/images/banner/hero.jpg" alt="Avatar" class="avatar">
+<br>
+  <h1 class="title" style="text-align:center">АНГЛИЙСКИЙ ЯЗЫК</h2>
+  <hr class="fancy-line"></hr>
+    <p style="text-align:center"><strong>Индивидуальные занятия</strong></p>
+<div class="center">
+  <a rel="noopener" class="main-btn circular" style="text-align:center"  href="https://engversity.org"><i class="fa fa-globe" aria-hidden="true"></i> Подготовка к IELTS, TOEFL, общий английский</a>
+</div>
+<hr class="fancy-line"></hr>
+<p style="text-align:center"><strong>WINE ENGLISH-SPEAKING CLUB</strong></p>
+<div class="center">
+<a rel="noopener" class="main-btn circular" style="text-align:center"  href="https://engversity.org"><i class="fa fa-glass" aria-hidden="true"></i> Записаться на разговорный клуб с носителем из США</a>
+</div>
+<hr class="fancy-line"></hr>
+<p style="text-align:center"><strong>По всем вопросам</strong></p>
+<div class="center">
+<a rel="noopener" class="main-btn circular" style="text-align:center"  href="https://api.whatsapp.com/send?phone=79580621977&amp;text=Здравствуйте, я хочу узнать больше о ваших языковых услугах."><i class="fa fa-whatsapp" aria-hidden="true"></i> Whatsapp</a>
+<a rel="noopener" class="main-btn circular" style="text-align:center"  href="mailto:zagitova.karina@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a>
+</div>
+
+
 </body>
