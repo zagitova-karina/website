@@ -104,6 +104,54 @@ border: 4px outset  #754ef9;
         box-shadow: 0px -2px 4px rgba(136,136,136,0.75);
 
     }
+    .collapsible {
+      background-color: #8d6fff;
+      color: white;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      border: none;
+      text-align: center;
+      outline: none;
+      font-size: 15px;
+      border-radius: 10px;
+    }
+
+    .active, .collapsible:hover {
+      background-color: #744df9;
+      /* round the corners */
+      -webkit-border-radius: 10px;
+         -moz-border-radius: 10px;
+              border-radius: 10px;
+
+      /* make it glow! */
+      -webkit-box-shadow: 0px 0px 10px #754ef9;
+         -moz-box-shadow: 0px 0px 10px #754ef9;
+              box-shadow: 0px 0px 10px #754ef9; /
+              /* some variation of violet for the shadow */
+    }
+
+    .collapsible:after {
+      content: '\002B';
+      color: white;
+      font-weight: 900;
+      font-size: 30px;
+      float: right;
+      margin-left: 5px;
+    }
+
+    .active:after {
+      content: "\2212";
+    }
+
+    .collapsemenu {
+      padding: 0 18px;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+      background-color: #f1f1f1;
+      border-radius: 10px;
+    }
  </style>
 
 </head>
@@ -119,8 +167,14 @@ border: 4px outset  #754ef9;
 </div>
 <hr class="fancy-line"></hr>
 <p style="text-align:center"><strong>WINE ENGLISH-SPEAKING CLUB</strong></p>
-<div class="center">
-<a rel="noopener" class="main-btn circular" style="text-align:center"  href="https://engversity.org"><i class="fa fa-glass" aria-hidden="true"></i> Записаться на разговорный клуб с носителем из США</a>
+
+<button class="collapsible"><i class="fa fa-glass" aria-hidden="true"></i> Записаться на разговорный клуб с носителем из США</button>
+<div class="collapsemenu text-left">
+
+  <iframe frameborder="0" style="height:800px;width:99%;border:none;" src='https://forms.zohopublic.in/arunv1/form/WINESPEAKINGCLUB/formperma/l2M3y9p-HLLwFir__734ZEtDCMpdRSFqeI585BvUAgI'></iframe>
+</div>
+
+
 </div>
 <hr class="fancy-line"></hr>
 <p style="text-align:center"><strong>По всем вопросам</strong></p>
@@ -128,6 +182,22 @@ border: 4px outset  #754ef9;
 <a rel="noopener" class="main-btn circular" style="text-align:center"  href="https://api.whatsapp.com/send?phone=79580621977&amp;text=Здравствуйте, я хочу узнать больше о ваших языковых услугах."><i class="fa fa-whatsapp" aria-hidden="true"></i> Whatsapp</a>
 <a rel="noopener" class="main-btn circular" style="text-align:center"  href="mailto:zagitova.karina@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a>
 </div>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
 
 
 </body>
