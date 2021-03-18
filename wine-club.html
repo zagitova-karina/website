@@ -3,193 +3,41 @@
 <html lang="ru">
 
 <head>
-
     <!--====== Required meta tags ======-->
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="description" content="Wine club">
+    <meta name="description" content="English speaking Wine club for Russian native speakers">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!--====== Title ======-->
     <title>Wine club</title>
+    <!--====== FontAwesome Icons ======-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-img.avatar
-  {
-border-radius: 50%;
-height: auto;
-display: block;
-margin-left: auto;
-margin-right: auto;
-width: 150px;
-border: 4px outset  #754ef9;
-/* make it glow! */
--webkit-box-shadow: 0px 0px 10px #754ef9;
-   -moz-box-shadow: 0px 0px 10px #754ef9;
-        box-shadow: 0px 0px 10px #754ef9; //* some variation of violet for the shadow */
-}
-.main-btn {
-    padding: 1em 2.1em 1.1em;
-    border-radius: 3px;
-    margin: 8px 8px 8px 8px;
-    color: #fff;
-    background-color: #754ef9;
-    display: inline-block;
-    background: #754ef9;
-    -webkit-transition: 0.3s;
-    -moz-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s;
-    font-family:"Poppins", sans-serif;
-    font-weight: 800;
-    font-size: .85em;
-    text-transform: uppercase;
-    text-align: center;
-    text-decoration: none;
-    -webkit-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
-    -moz-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
-    box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
-    position: relative;
-
-}
-.main-btn:hover, .main-btn:focus {
-    opacity: 0.9;
-    color: #fff;
-}
-.main-btn:active {
-    -webkit-transform: scale(0.80);
-    -moz-transform: scale(0.80);
-    -ms-transform: scale(0.80);
-    -o-transform: scale(0.80);
-    transform: scale(0.80);
-}
-.main-btn.block {
-    display: block !important;
-}
-.main-btn.circular {
-  border-radius: 50em !important;
-}
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-  @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800&display=swap");
-  body {
-    font-family: "Poppins", sans-serif;
-    font-weight: strong;
-    font-style: normal;
-    color: #8a8fa3;
-    text-align: center;
-  overflow-x: hidden; // hide horizontal
-  font-display: swap; }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    color: #32333c;
-    margin: 0px; }
-
-    hr.fancy-line {
-        border: 0;
-        height: 1px;
-
-        background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(215,215,215,0.75), rgba(0,0,0,0));
-        background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(215,215,215,0.75), rgba(0,0,0,0));
-        background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(215,215,215,0.75), rgba(0,0,0,0));
-        background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(215,215,215,0.75), rgba(0,0,0,0));
-        box-shadow: 0px -2px 4px rgba(136,136,136,0.75);
-
-    }
-    .collapsible {
-      padding: 1em 2.1em 1.1em;
-      border-radius: 3px;
-      margin: 8px 8px 8px 8px;
-      background-color: #dc143c;
-      color: white;
-      cursor: pointer;
-      border: none;
-      text-align: center;
-      outline: none;
-      font-family:"Poppins", sans-serif;
-      font-weight: 800;
-      font-size: .85em;
-      text-transform: uppercase;
-      text-align: center;
-      border-radius: 50px;
-      -webkit-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
-      -moz-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
-      box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
-    }
-
-    .active, .collapsible:hover {
-      background-color: #dc143c;
-      /* round the corners */
-      -webkit-border-radius: 50px;
-         -moz-border-radius: 50px;
-              border-radius: 50px;
-
-
-      /* make it glow! */
-      -webkit-box-shadow: 0px 0px 10px #dc143c;
-         -moz-box-shadow: 0px 0px 10px #dc143c;
-              box-shadow: 0px 0px 10px #dc143c; /
-              /* some variation of violet for the shadow */
-    }
-
-    .collapsible:after {
-      color: white;
-      font-weight: 900;
-      font-size: 30px;
-      float: right;
-      margin-left: 5px;
-      -webkit-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
-      -moz-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
-      box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
-    }
-
-
-    .collapsemenu {
-      padding: 0 18px;
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.2s ease-out;
-      background-color: #f1f1f1;
-      border-radius: 10px;
-    }
- </style>
-
+    <!--====== contact css ======-->
+    <link rel="stylesheet" href="assets/css/contact.css">
 </head>
-
 <body>
-<img src="assets/images/banner/avatar.jpg" alt="Avatar" class="avatar">
+<img src="assets/images/banner/avatar.jpg" alt="Photo of Karina the teacher of English language" class="avatar">
 <br>
-  <h1 class="title" style="text-align:center">АНГЛИЙСКИЙ ЯЗЫК</h2>
+  <h1 class="title">АНГЛИЙСКИЙ ЯЗЫК</h2>
   <hr class="fancy-line"></hr>
-    <p style="text-align:center"><strong>Индивидуальные занятия</strong></p>
+    <p><strong>Индивидуальные занятия</strong></p>
 <div class="center">
   <a rel="noopener" class="main-btn circular" style="text-align:center"  href="https://engversity.org"><i class="fa fa-globe" aria-hidden="true"></i> Подготовка к IELTS, TOEFL, общий английский</a>
 </div>
 <hr class="fancy-line"></hr>
 
-<p style="text-align:center"><strong>WINE ENGLISH-SPEAKING CLUB</strong></p>
+<p><strong>WINE ENGLISH-SPEAKING CLUB</strong></p>
 
 <button class="collapsible"><i class="fa fa-glass" aria-hidden="true"></i> Записаться на разговорный клуб с носителем из США</button>
 <div class="collapsemenu text-left">
   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdb6l9ePvSu67ss1qTYaclE6rGHLYDR3owj4iBy9HFkSiZToQ/viewform?embedded=true" width="100%" height="850" frameborder="0" marginheight="0" marginwidth="0">Загрузка…</iframe>
 </div>
-
-</div>
 <hr class="fancy-line"></hr>
-<p style="text-align:center"><strong>По всем вопросам</strong></p>
-<div class="center">
+<p><strong>По всем вопросам</strong></p>
+
 <a rel="noopener" class="main-btn circular" style="text-align:center"  href="https://api.whatsapp.com/send?phone=79580621977&amp;text=Здравствуйте, я хочу узнать больше о ваших языковых услугах."><i class="fa fa-whatsapp" aria-hidden="true"></i> Whatsapp</a>
 <a rel="noopener" class="main-btn circular" style="text-align:center"  href="mailto:zagitova.karina@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a>
-</div>
+
 <script>
 var coll = document.getElementsByClassName("collapsible");
 var i;
