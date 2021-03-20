@@ -67,7 +67,7 @@ img:hover {
     font-family: "Poppins", sans-serif;
     font-weight: strong;
     font-style: normal;
-    color: #000000;
+    color: #8a8fa3;
     text-align: center;
   overflow-x: hidden; // hide horizontal
   font-display: swap; }
@@ -168,7 +168,6 @@ input[type=text]:hover{
      -moz-box-shadow: 0px 0px 10px #ccc;
           box-shadow: 0px 0px 10px #ccc; //* some variation of violet for the shadow */
         }
-
 input[type=email], select {
 width: 100%;
 padding: 12px 20px;
@@ -226,96 +225,4 @@ input[type=submit]:hover {
 
 ::placeholder { /* Most modern browsers support this now. */
    color:    #636363;
-}
-
-/* cool test effect*/
-
-.Iam {
-  padding: 0em 3em 6em 0em;
-  font: normal 40px/50px Poppins, sans-serif;
-  color: #000000;
-
-  }
-.Iam p {
-  height: 50px;
-  float: left;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  padding-left: 1.5em;
-}
-.Iam b {
-  float: left;
-  overflow: hidden;
-  position: relative;
-  height: 50px;
-  top: 40px;
-  text-align: center;
-}
-.Iam .innerIam {
-  display: inline-block;
-  color: #e74c3c;
-  position: relative;
-  margin-right: 2em;
-  white-space: nowrap;
-  top: 1;
-  left: 1;
-  text-align: center;
-
-
-/*animation*/
--webkit-animation:move 10s;
-   -moz-animation:move 10s;
-    -ms-animation:move 10s;
-     -o-animation:move 10s;
-        animation:move 10s;
-/*animation-iteration-count*/
--webkit-animation-iteration-count:infinite;
-   -moz-animation-iteration-count:infinite;
-    -ms-animation-iteration-count:infinite;
-     -o-animation-iteration-count:infinite;
-        animation-iteration-count:infinite;
-/*animation-delay*/
--webkit-animation-delay:3s;
-   -moz-animation-delay:3s;
-    -ms-animation-delay:3s;
-     -o-animation-delay:3s;
-        animation-delay:3s;
-}
-@keyframes move{
-0%  { top: 0px; }
-20% { top: -50px; }
-40% { top: -100px; }
-60% { top: -150px; }
-80% { top: -200px; }
-}
-
-@-webkit-keyframes move {
-    0%  { top: 0px; }
-    20% { top: -50px; }
-    40% { top: -100px; }
-    60% { top: -150px; }
-    80% { top: -200px; }
-}
-@-moz-keyframes move {
-    0%  { top: 0px; }
-    20% { top: -50px; }
-    40% { top: -100px; }
-    60% { top: -150px; }
-    80% { top: -200px; }
-}
-@-o-keyframes move {
-    0%  { top: 0px; }
-    20% { top: -50px; }
-    40% { top: -100px; }
-    60% { top: -150px; }
-    80% { top: -200px; }
-}
-@keyframes move {
-    0%  { top: 0px; }
-    20% { top: -50px; }
-    40% { top: -100px; }
-    60% { top: -150px; }
-    80% { top: -200px; }
 }
