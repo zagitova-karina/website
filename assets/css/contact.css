@@ -67,7 +67,7 @@ img:hover {
     font-family: "Poppins", sans-serif;
     font-weight: strong;
     font-style: normal;
-    color: #8a8fa3;
+    color: #000000;
     text-align: center;
   overflow-x: hidden; // hide horizontal
   font-display: swap; }
@@ -79,7 +79,7 @@ img:hover {
   h6 {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
-    color: #32333c;
+    color: #000000;
     margin: 0px; }
 
     hr.fancy-line {
