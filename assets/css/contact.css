@@ -240,9 +240,6 @@ input[type=submit]:hover {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  grid-template-columns: min-content auto;
-  grid-gap: 0.5em;
-
 
 }
 
@@ -264,11 +261,12 @@ input[type=submit]:hover {
   background-color: #eee;
   border-radius: 50%;
 
+
 }
 
-/* On mouse-over, add a grey background color */
+/* On mouse-over, add a pink background color */
 .container:hover input ~ .checkmark {
-  background-color: #ccc;
+  background-color: #FFCCCB;
 }
 
 /* When the radio button is checked, add a red background */
@@ -286,6 +284,7 @@ input[type=submit]:hover {
   content: "";
   position: absolute;
   display: none;
+
 }
 
 /* Show the indicator (dot/circle) when checked */
@@ -296,12 +295,14 @@ input[type=submit]:hover {
 
 /* Style the indicator (dot/circle) */
 .container .checkmark:after {
- 	top: 9px;
-	left: 9px;
-	width: 8px;
-	height: 8px;
-	border-radius: 50%;
-	background: white;
+  content: "\f00c";
+  font-family: 'FontAwesome';
+   color: #ffffff;
+ 	top: 5px;
+	left: 4.5px;
+  
+
+
 
 
 
