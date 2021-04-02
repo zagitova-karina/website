@@ -81,7 +81,9 @@ img:hover {
     font-weight: 600;
     color: #000000;
     margin: 0px; }
-
+p{
+  text-align: left;
+}
     hr.fancy-line {
         border: 0;
         height: 1px;
@@ -112,6 +114,7 @@ img:hover {
       -webkit-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
       -moz-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
       box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+      outline: none;
     }
 
     .active, .collapsible:hover {
@@ -148,6 +151,7 @@ img:hover {
       transition: max-height 0.2s ease-out;
 
       border-radius: 10px;
+      outline: none;
     }
 
   /*contact form*/
