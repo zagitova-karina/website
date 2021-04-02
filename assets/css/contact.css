@@ -1,3 +1,15 @@
+#intro 
+{
+  background: url("/assets/images/bg.jpg")no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 200vw;
+}
+
+
+
 img
   {
 border-radius: 50%;
@@ -80,7 +92,7 @@ img:hover {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     color: #000000;
-    margin: 0px; }
+    }
 p, li{
   text-align: left;
 }
