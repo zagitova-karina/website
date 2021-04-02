@@ -81,7 +81,7 @@ img:hover {
     font-weight: 600;
     color: #000000;
     margin: 0px; }
-p{
+p, li{
   text-align: left;
 }
     hr.fancy-line {
