@@ -7,6 +7,7 @@
   background-size: cover;
   height: 200vw;
   padding-top: 55vw;
+  margin: 0;
 }
 
 
@@ -81,6 +82,7 @@ img:hover {
     font-weight: strong;
     font-style: normal;
     color: #000000;
+    margin: 0;
     text-align: center;
   overflow-x: hidden; // hide horizontal
   font-display: swap; }
