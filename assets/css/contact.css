@@ -107,6 +107,9 @@ img:hover {
     }
     h1 {
       color: #fff;
+      font-weight: bolder;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: black;
     }
 p, li{
   text-align: left;
