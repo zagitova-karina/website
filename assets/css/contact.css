@@ -5,12 +5,18 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 200vw;
-  padding-top: 55vw;
+  height: 100vw;
+  padding-top: 20vw;
   margin: 0;
+ 
 }
-
-
+.sitebody {
+  padding-right:5vw;
+  padding-left: 5vw;
+}
+.intro1 {
+  padding-top: 40vw;
+}
 
 img
   {
@@ -76,25 +82,26 @@ img:hover {
   justify-content: center;
   align-items: center; }
 
-  @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800&display=swap");
+  @import url("https://fonts.googleapis.com/css?family=Yeseva+One:400,500,600,700,800&display=swap");
   body {
-    font-family: "Poppins", sans-serif;
+    font-family: "Yeseva One", sans-serif;
     font-weight: strong;
     font-style: normal;
     color: #000000;
-    margin: 0;
     text-align: center;
   overflow-x: hidden; // hide horizontal
   font-display: swap; }
   h1,
   h2,
-  h3,
   h4,
   h5,
   h6 {
-    font-family: "Poppins", sans-serif;
+    font-family: "Yeseva One", sans-serif;
     font-weight: 600;
     color: #000000;
+    }
+    h3 {
+      colour:#006400;
     }
 p, li{
   text-align: left;
@@ -120,7 +127,7 @@ p, li{
       border: none;
       text-align: center;
       outline: none;
-      font-family:"Poppins", sans-serif;
+      font-family:"Yeseva One", sans-serif;
       font-weight: 800;
       font-size: .85em;
       text-transform: uppercase;
@@ -190,7 +197,7 @@ input[type=text]:hover{
 input[type=email], select {
 width: 100%;
 padding: 12px 20px;
-font-family:"Poppins", sans-serif;
+font-family:"Yeseva One", sans-serif;
 font-weight: 700;
 margin: 8px 0;
 display: inline-block;
