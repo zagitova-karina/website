@@ -92,7 +92,6 @@ img:hover {
     text-align: center;
   overflow-x: hidden; // hide horizontal
   font-display: swap; }
-  h1,
   h2,
   h4,
   h5,
@@ -101,10 +100,13 @@ img:hover {
     font-weight: 600;
     color: #000000;
     }
-    h3,h1 {
+    h3{
       color:#006400;
       font-family: :"Yeseva One", sans-serif;
       font-weight: 600;
+    }
+    h1 {
+      color: #fff;
     }
 p, li{
   text-align: left;
