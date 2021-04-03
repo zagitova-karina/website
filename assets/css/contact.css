@@ -8,8 +8,9 @@
   height: 152vw;
   padding-top: 20vw;
   margin: 0;
- 
+  width: 100%;
 }
+
 .sitebody {
   padding-right:5vw;
   padding-left: 5vw;
@@ -100,7 +101,7 @@ img:hover {
     font-weight: 600;
     color: #000000;
     }
-    h3 {
+    h3,h1 {
       color:#006400;
       font-family: :"Yeseva One", sans-serif;
       font-weight: 600;
