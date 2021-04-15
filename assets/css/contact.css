@@ -5,7 +5,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 200vw;
+  min-height: 200vw;
   padding-top: 20vw;
   margin: 0;
   width: 100%;
@@ -88,9 +88,10 @@ img:hover {
   justify-content: center;
   align-items: center; }
 
-  @import url("https://fonts.googleapis.com/css?family=Yeseva+One:400,500,600,700,800&display=swap");
+  @import url("https://fonts.googleapis.com/css?family=Yeseva One");
   body {
-    font-family: "Yeseva One", sans-serif;
+    font-family: 'Yeseva One';
+    background-color: #f5f5f5;
     font-weight: strong;
     font-style: normal;
     color: #000000;
@@ -101,17 +102,17 @@ img:hover {
   h4,
   h5,
   h6 {
-    font-family: "Yeseva One", sans-serif;
+    font-family: 'Yeseva One';
     font-weight: 600;
     color: #000000;
     }
     h3{
       color:#006400;
-      font-family: :"Yeseva One", sans-serif;
+      font-family: :'Yeseva One';
       font-weight: 600;
     }
     h1 {
-      font-family: Yeseva one;
+      font-family: 'Yeseva one';
       color: #fff;
       font-weight: bolder;
       font-size: 8vw;
@@ -120,7 +121,7 @@ img:hover {
          }
 p, li{
   text-align: left;
-  font-family: "Yeseva One", sans-serif;
+  font-family: ;'Yeseva One';
 }
     hr.fancy-line {
         border: 0;
@@ -313,10 +314,10 @@ input[type=submit]:hover {
 
 /* When the radio button is checked, add a red background */
 .container input:checked ~ .checkmark {
-  background-color: #dc143c;
-  -webkit-box-shadow: 0px 0px 10px #dc143c;
-     -moz-box-shadow: 0px 0px 10px #dc143c;
-          box-shadow: 0px 0px 10px #dc143c;
+  background-color: #006400;
+  -webkit-box-shadow: 0px 0px 10px #006400;
+     -moz-box-shadow: 0px 0px 10px #006400;
+          box-shadow: 0px 0px 10px #006400;
 
 
 }
