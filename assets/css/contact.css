@@ -15,6 +15,7 @@
   padding-right:5vw;
   padding-left: 5vw;
 }
+
 .intro1 {
   padding-top: 40vw;
 }
@@ -494,5 +495,3 @@ ol.gradient-list > li, ol.gradient-list > li::before {
   line-height: 1.5em;
   list-style-image: url("/assets/images/alarm.png")
 }
-
-
