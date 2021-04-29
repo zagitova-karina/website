@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,600,700");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap");
  * {
 	 box-sizing: border-box;
 }
@@ -6,6 +9,12 @@
 	 font-family: "Nunito", sans-serif;
 	 color: rgba(0, 0, 0, 0.7);
 	 margin:0;
+}
+h1 {
+	font-family: 'Pacifico', cursive;
+}
+p {
+	font-family: 'Lobster', cursive;
 }
  .container {
 	 height: 200vh;
@@ -56,24 +65,43 @@
 	 transition-duration: 0.5s;
 	 transform: translateY(80px);
 	 opacity: 0;
+	 box-shadow: inset 0 0 0 200px rgba(255,255,255,0.05);
 }
  .modal-button {
-	 color: #7d695e;
-	 font-family: "Nunito", sans-serif;
-	 font-size: 18px;
-	 cursor: pointer;
-	 border: 0;
-	 outline: 0;
-	 padding: 10px 40px;
-	 border-radius: 30px;
-	 background: #fff;
-	 box-shadow: 0 10px 40px rgba(0, 0, 0, 0.16);
-	 transition: 0.3s;
+	padding: 1em 2.1em 1.1em;
+    border-radius: 3px;
+    margin: 8px 8px 8px 8px;
+    color: #fff;
+    background-color: #754ef9;
+    display: inline-block;
+    background: #754ef9;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    font-family:"Poppins", sans-serif;
+    font-weight: 800;
+    font-size: .85em;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    position: relative;
 }
- .modal-button:hover {
-	 border-color: rgba(255, 255, 255, 0.2);
-	 background: rgba(255, 255, 255, 0.8);
+ .modal-button:hover, .modal-button:focus {
+	opacity: 0.9;
+    color: #fff;
 }
+.modal-button:active {
+			-webkit-transform: scale(0.80);
+		-moz-transform: scale(0.80);
+		-ms-transform: scale(0.80);
+		-o-transform: scale(0.80);
+		transform: scale(0.80);
+	}
+
  .modal-right {
 	 flex: 2;
 	 font-size: 0;
@@ -131,24 +159,47 @@
 	 padding: 10px 10px 8px;
 }
  .input-button {
-	 padding: 8px 12px;
-	 outline: none;
-	 border: 0;
-	 color: #fff;
-	 border-radius: 4px;
-	 background: #8c7569;
-	 font-family: "Nunito", sans-serif;
-	 transition: 0.3s;
-	 cursor: pointer;
+	padding: 1em 2.1em 1.1em;
+    border-radius: 3px;
+    margin: 8px 8px 8px 8px;
+    color: #fff;
+    background-color: #8c7569;
+    display: inline-block;
+    background: #8c7569;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    font-family:"Poppins", sans-serif;
+    font-weight: 800;
+    font-size: .85em;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-shadow: 0em -0.3rem 0em #8c7569(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0em -0.3rem 0em #8c7569(0, 0, 0, 0.1) inset;
+    box-shadow: 0em -0.3rem 0em #8c7569(132, 134, 113, 0.1) inset;
+    position: relative;
 }
- .input-button:hover {
-	 background: #55311c;
+.input-button:hover, .input-button:focus {
+	opacity: 0.9;
+    color: #fff;
 }
+.input-button:active {
+			-webkit-transform: scale(0.80);
+		-moz-transform: scale(0.80);
+		-ms-transform: scale(0.80);
+		-o-transform: scale(0.80);
+		transform: scale(0.80);
+	}
+.input-button.circular {
+		border-radius: 50em !important;
+	  }
  .input-label {
-	 font-size: 11px;
+	 font-size: 15px;
 	 text-transform: uppercase;
 	 font-family: "Nunito", sans-serif;
-	 font-weight: 600;
+	 font-weight: 900;
 	 letter-spacing: 0.7px;
 	 color: #8c7569;
 	 transition: 0.3s;
@@ -200,14 +251,17 @@
 	 align-items: center;
 	 text-align: center;
 	 color: #fff;
-	 font-size: 32px;
+	 text-shadow: -2px -2px 0 #8c7569, 2px -2px 0 #000, -2px 2px 0 #8c7569, 2px 2px 0 #000;
+	 font-size: 38px;
 	 font-weight: 800;
 	 transform: translate(-50%, -50%);
+	 font-family: 'Pacifico', cursive;
 }
  .scroll-down svg {
 	 margin-top: 16px;
 	 width: 52px;
 	 fill: currentColor;
+	 
 }
  @media (max-width: 750px) {
 	 .modal-container {
@@ -217,13 +271,51 @@
 		 display: none;
 	}
 }
-@media screen and (max-width: 480px) {
+/*@media screen and (max-width: 480px) {
 	.container { 
 		height: 200vh;
-		background-image: url(/assets/images/nycbg2.jpg);
+		background-image: url(/assets/images/nycbg3.jpg);
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
 	}
-  }
+  } */
+  .arrows-container {
+ transform: rotate(270deg);
  
+  padding-left: 20vh;
+  display: flex;
+  position: relative;
+    align-self:center;
+}
+
+.arrow {
+  padding: 1rem;
+  box-shadow: 3px -3px white inset;
+  /* box-shadow: 2px -2px 1px 1px white inset; */
+  transform: rotate(225deg);
+  opacity: 0;
+  position: absolute;
+}
+
+.arrow-one {
+  animation: arrowMovement 2s ease-in-out infinite;
+}
+
+.arrow-two {
+  animation: arrowMovement 2s 1s ease-in-out infinite;
+}
+
+@keyframes arrowMovement {
+  0% {
+    left: 0;
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    left: 30px;
+    opacity: 0;
+  }
+}
