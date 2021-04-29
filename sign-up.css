@@ -285,6 +285,7 @@ p {
    display: flex;
   position: relative;
     align-self:center;
+	padding: 0 30vh 6vh 0 ;
 
 }
 
