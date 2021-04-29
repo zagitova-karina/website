@@ -285,10 +285,11 @@ p {
    display: flex;
   position: relative;
     align-self:center;
+
 }
 
 .arrow {
-  padding: 1rem;
+  padding: 1.5rem;
   box-shadow: 3px -3px white inset;
   /* box-shadow: 2px -2px 1px 1px white inset; */
   transform: rotate(225deg);
