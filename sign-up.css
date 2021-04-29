@@ -282,8 +282,7 @@ p {
   } */
   .arrows-container {
  transform: rotate(270deg);
-   padding-top: 5vh;
-  display: flex;
+   display: flex;
   position: relative;
     align-self:center;
 }
